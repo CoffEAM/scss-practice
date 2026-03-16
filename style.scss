@@ -1,7 +1,9 @@
 // Не забудь в терминале включить автообновление style.scss->output.css
+$primary-color: #f00;
+$border-width: 3px;
 
 .first-class {
-    color: #f00;
+    color: $primary-color;
     font-family: sans-serif;
     text-decoration: underline;
 }
@@ -9,4 +11,28 @@
 .second-class{
     @extend .first-class;
     border-color: #fff;
+}
+
+.border-blue{
+    border-color: $border-width;
+}
+
+.border-red{
+    border-color: $border-width;
+}
+
+// a {font-family: sans-serif; color: $primary-color; }
+// a:hover, a:focus, a:visited { color: blue }
+// a.link-class { color: green; }
+// a.link-class:hover, a.link-class:focus, a.link-class:visited { color: black }
+
+a { font-family: sans-serif; color: $primary-color; 
+    &:hover,
+    &:focus,
+    &:active { color: blue; }
+    &.another-class { color: green;
+        &:hover,
+        &:focus,
+        &:active { color: black; }
+    }
 }
