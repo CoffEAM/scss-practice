@@ -1,0 +1,12 @@
+// Не забудь в терминале включить автообновление style.scss->output.css
+
+.first-class {
+    color: #f00;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.second-class{
+    @extend .first-class;
+    border-color: #fff;
+}
