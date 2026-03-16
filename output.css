@@ -1,3 +1,15 @@
+.half {
+  height: 732.5px;
+}
+
+.half1 {
+  height: 732.5px;
+}
+
+.half2 {
+  height: 732.5px;
+}
+
 .first-class, .second-class {
   color: #f00;
   font-family: sans-serif;

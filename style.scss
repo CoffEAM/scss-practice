@@ -2,6 +2,23 @@
 $primary-color: #f00;
 $border-width: 3px;
 
+$container: 1440px;
+$padding: 25px;
+
+@function half-height($first, $second){
+    @return $container / $first + $padding / $second;
+}
+
+.half{
+    height: half-height(2, 2);
+}
+.half1{
+    height: half-height(2, 2);
+}
+.half2{
+    height: half-height(2, 2);
+}
+
 .first-class {
     color: $primary-color;
     font-family: sans-serif;
