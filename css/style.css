@@ -1,5 +1,5 @@
 html, body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
@@ -87,4 +87,4 @@ a.another-class:hover, a.another-class:focus, a.another-class:active {
   transition: 500ms ease;
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=style.css.map */
