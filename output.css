@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .half {
   height: 732.5px;
 }
@@ -40,6 +45,46 @@ a.another-class {
 }
 a.another-class:hover, a.another-class:focus, a.another-class:active {
   color: black;
+}
+
+.translateX {
+  -webkit-transform: translateX(14px);
+  -moz-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  -o-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+.transformX {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.box1 {
+  -webkit-transition: 320ms ease;
+  -moz-transition: 320ms ease;
+  -ms-transition: 320ms ease;
+  -o-transition: 320ms ease;
+  transition: 320ms ease;
+}
+
+.box2 {
+  -webkit-transition: 320ms ease;
+  -moz-transition: 320ms ease;
+  -ms-transition: 320ms ease;
+  -o-transition: 320ms ease;
+  transition: 320ms ease;
+}
+
+.box3 {
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -ms-transition: 500ms ease;
+  -o-transition: 500ms ease;
+  transition: 500ms ease;
 }
 
 /*# sourceMappingURL=output.css.map */

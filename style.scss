@@ -1,4 +1,8 @@
 // Не забудь в терминале включить автообновление style.scss->output.css
+// sass --watch style.scss:output.css
+@import 'partials/reset';
+@import 'partials/mixins';
+
 $primary-color: #f00;
 $border-width: 3px;
 
@@ -52,4 +56,22 @@ a { font-family: sans-serif; color: $primary-color;
         &:focus,
         &:active { color: black; }
     }
+}
+
+.translateX {
+    @include translateX(14px);
+}
+
+.transformX {
+    @include translateX(10px);
+}
+
+.box1{
+    @include animate-time;
+}
+.box2{
+    @include animate-time;
+}
+.box3{
+    @include animate-time(500ms);
 }
